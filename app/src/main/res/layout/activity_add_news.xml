@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewsActivity"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title..."
+        android:id="@+id/etEnterTitle"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter SubTitle..."
+        android:id="@+id/etEnterSubTitle"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Link Image..."
+        android:id="@+id/etEnterLinkImage"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save New News"
+        android:id="@+id/btnSaveNewNews"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
